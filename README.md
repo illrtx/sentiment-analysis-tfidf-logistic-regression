@@ -55,3 +55,8 @@ The model was trained on the IMDB dataset and can also predict sentiment for cus
 
 ```python
 predict_sentiment("your text here")
+
+**Author**
+
+**Heba Alsulami**  
+Artificial Intelligence Student  
