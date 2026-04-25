@@ -24,3 +24,5 @@ if st.button("Predict"):
 
         st.write("Negative probability:", round(probability[0], 3))
         st.write("Positive probability:", round(probability[1], 3))
+if "movie" not in review.lower():
+    st.warning("This model works best on movie-related reviews.")
