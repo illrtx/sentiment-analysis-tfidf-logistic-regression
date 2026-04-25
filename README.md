@@ -1,9 +1,10 @@
 # sentiment-analysis-tfidf-logistic-regression
+
 This project is a Machine Learning model that classifies movie reviews as Positive or Negative using Natural Language Processing (NLP).
 
 ---
 
-**Project Overview:**
+#**Project Overview:**
 
 The goal of this project is to build a sentiment analysis system that can understand the emotional tone of text reviews.
 
@@ -11,7 +12,7 @@ The model was trained on the IMDB dataset and can also predict sentiment for cus
 
 ---
 
-**Technologies Used:**
+#**Technologies Used:**
 
 - Python
 - Scikit-learn
@@ -21,7 +22,7 @@ The model was trained on the IMDB dataset and can also predict sentiment for cus
 
 ---
 
-**How It Works:**
+#**How It Works:**
 
 1. Text data is converted into numerical features using TF-IDF
 2. A Logistic Regression model is trained on the dataset
@@ -30,14 +31,14 @@ The model was trained on the IMDB dataset and can also predict sentiment for cus
 
 ---
 
-**Model Performance:**
+#**Model Performance:**
 
 - Test Accuracy: 88%
 - Balanced performance across both classes (Positive & Negative)
 
 --
 
-**Example Predictions:**
+#**Example Predictions:**
 
 | Review | Prediction |
 |--------|-----------|
@@ -47,7 +48,7 @@ The model was trained on the IMDB dataset and can also predict sentiment for cus
 
 ---
 
-**How to Run:**
+#**How to Run:**
 
 1. Open the notebook: `sentiment_analysis.ipynb`
 2. Run all cells
@@ -55,8 +56,9 @@ The model was trained on the IMDB dataset and can also predict sentiment for cus
 
 ```python
 predict_sentiment("your text here")
-
-**Author**
+```
+---
+#**Author**
 
 **Heba Alsulami**  
 Artificial Intelligence Student  
